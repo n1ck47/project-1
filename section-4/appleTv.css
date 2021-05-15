@@ -12,12 +12,12 @@
 
 
 
-.section-appleTv{
+.section-4-appleTv{
     display: block;
     background-color: black;
 }
 
-#big-cards{
+#section-4-big-cards{
     padding:25px 0px;
     height: 510px;
     display: flex;
@@ -28,7 +28,7 @@
     color: black;
 }
 
-.big-card{
+.section-4-big-card{
     width:100%;
     height:100%;
     transform: scale(1, 1);
@@ -45,31 +45,31 @@
 }
 
 @media only screen and (min-width: 1070px){
-    .big-card{
+    .section-4-big-card{
         background-image: var(--big-image-big-card);
     }
    
 }
 
 @media only screen and (min-width: 500px) and (max-width:1069px){
-    .big-card{
+    .section-4-big-card{
         background-image: var(--medium-image-big-card);
     }
 }
 
 @media only screen and (max-width:499px){
-    .big-card{
+    .section-4-big-card{
         background-image: var(--small-image-big-card);
     }
 }
 
 
-.navigate-left{
+.section-4-navigate-left{
     position: relative;
     margin-left:10px;
 }
 
-.navigate-left:before{
+.section-4-navigate-left:before{
     position: absolute;
     border-radius: 20px;
     content:' ';
@@ -81,12 +81,12 @@
     z-index: 0;
 }
 
-.navigate-right{
+.section-4-navigate-right{
     position: relative;
     margin-right: 10px;
 }
 
-.navigate-right:before{
+.section-4-navigate-right:before{
     position: absolute;
     border-radius: 20px;
     content:' ';
@@ -98,26 +98,26 @@
     z-index: 0;
 }
 
-.navigate-left:hover, .navigate-right:hover{
+.section-4-navigate-left:hover, .section-4-navigate-right:hover{
     cursor: pointer;
 }
 
-.navigate-left svg{
+.section-4-navigate-left svg{
     height: 30px;
     width: 30px;
 }
 
-.navigate-right svg{
+.section-4-navigate-right svg{
     height: 30px;
     width: 30px;
 }
 
-#big-cards::-webkit-scrollbar{
+#section-4-big-cards::-webkit-scrollbar{
     display:none;
 }
 
 /* Start Black Overlay */
-.big-card::before{
+.section-4-big-card::before{
     position: absolute;
     border-radius: 20px;
     content:' ';
@@ -131,7 +131,7 @@
 /* End Black Overlay */
 
 
-.big-card-header-text {
+.section-4-big-card-header-text {
     display: none;
     position: absolute;
     font-size: 30px;
@@ -144,7 +144,7 @@
     left:50px;
 }
 
-.big-card-header-image{
+.section-4-big-card-header-image{
     /* display: none; */
     position: absolute;
     background-image: url('https://is4-ssl.mzstatic.com/image/thumb/ZUVWaPY540Pb1dfp_VYpaw/200x61.png');
@@ -159,14 +159,14 @@
 }
 
 @media screen and (max-width:499px){
-    .big-card-header-text{
+    .section-4-big-card-header-text{
         width: 50%;
         font-size: 16px;
         max-width: 100%;
         text-align:left;
         left: 25%;
     }
-    .big-card-header-image {
+    .section-4-big-card-header-image {
         width: 50%;
         font-size: 20px;
         max-width: 100%;
@@ -176,7 +176,7 @@
 }
 
 @media screen and (max-width:300px){
-    .big-card-header-image, .big-card-header-text{
+    .section-4-big-card-header-image, .big-card-header-text{
         display: none;
     }
 }
@@ -193,18 +193,18 @@
 
 
 
-.small-cards{
+.section-4-small-cards{
     padding-bottom: 15px;
     display:flex;
     align-items: center;
     overflow: auto;
 }
 
-.small-cards::-webkit-scrollbar{
+.section-4-small-cards::-webkit-scrollbar{
     display:none;
 }
 
-.small-card{
+.section-4-small-card{
     height: 118px;
     width: 210px;
     min-width: 210px;
@@ -221,7 +221,7 @@
 }
 
 @media screen and (min-width: 1070px){
-    .small-card{
+    .section-4-small-card{
         width:378px;
         min-width: 378px;
         height:212px;
@@ -229,7 +229,7 @@
 }
 
 /* Start Black Overlay */
-/* .small-card::before{
+/* .section-4-small-card::before{
     position: absolute;
     border-radius: 20px;
     content:' ';
@@ -241,7 +241,7 @@
     z-index: 0;
 } */
 
-.small-card-header-text {
+.section-4-small-card-header-text {
     display: none;
     position: absolute;
     font-size: 20px;
@@ -254,7 +254,7 @@
     left:20px;
 }
 
-.small-card-header-image{
+.section-4-small-card-header-image{
     /* display: none; */
     position: absolute;
     background-image: url('https://is4-ssl.mzstatic.com/image/thumb/ZUVWaPY540Pb1dfp_VYpaw/200x61.png');

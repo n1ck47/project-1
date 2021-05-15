@@ -1,4 +1,4 @@
-const data = [
+const section4_data = [
         {
         name : 'THE MOSQUITO COAST',
         big : "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/93/62/dc/9362dc7e-a81a-204c-97fb-6d2a95dde59f/TU9TMV9IZXJvX0NvYXN0X0NTVy1UVkEtV1cucG5n.png/1920x800sr.jpg",
