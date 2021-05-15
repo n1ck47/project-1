@@ -1,7 +1,7 @@
 /* Base Settings */
 
 
-div{
+.sec-3-div-tag{
     display: block;
 }
 
@@ -37,7 +37,7 @@ div{
 
 /* Heading Section */
 
-h1{
+.sec-3-h1-tag{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 38px;
@@ -108,7 +108,7 @@ top: -2px;
     font-weight: 600;
 }
 
-h6{
+.sec-3-h6-tag{
     margin-block-start: 2.33em;
     margin-block-end: 2.33em;
     margin-inline-start: 0px;
@@ -208,9 +208,6 @@ h6{
         justify-content: space-around;
 
     }
-    html.sec-3-w-mod-touch * {
-        background-attachment: scroll!important;
-    }
 
     .sec-3-link-block-11{
 
@@ -226,7 +223,7 @@ h6{
     .sec-3-w-inline-block {
         max-width: 100%;
     }
-    a{
+    .sec-3-a-tag{
         background-color: transparent;
     }
     .sec-3-text-block-66{
@@ -242,7 +239,7 @@ h6{
         padding-left: 0;
         line-height: 24px;
     }
-    img{
+    .sec-3-img-tag{
         border: 0;
         max-width: 100%;
         vertical-align: middle;
