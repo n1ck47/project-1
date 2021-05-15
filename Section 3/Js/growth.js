@@ -1,33 +1,47 @@
-/*const button = document.getElementById("btn");
+const viewAll = document.getElementById('view-all');
+const show1 = document.getElementsByClassName("show-1")
+const show2 = document.getElementsByClassName("show-2")
+const show3 = document.getElementsByClassName("show-3")
 
-document.getElementById("emo-list").style = function() {
-    document.getElementById("emo-list").style.display = "none";
+let display = ['none','none','none']
+
+function updateEmojiDisplay(){
+    console.log(show1)
+
+    show1[0].style.display = display[0]
+    show1[1].style.display = display[0]
+    show1[2].style.display = display[0]
+
+    show2[0].style.display = display[1]
+    show2[1].style.display = display[1]
+    show2[2].style.display = display[1]
+    show2[3].style.display = display[1]
+    show2[4].style.display = display[1]
+    show2[5].style.display = display[1]
+
+    show3[0].style.display = display[2]
+    show3[1].style.display = display[2]
+    show3[2].style.display = display[2]
 }
-*/
 
-/*
-var x = document.getElementById("emo-list");
+updateEmojiDisplay();
 
-function Show() {
-
-    x.classList.toggle('hide');
-} 
-
-document.getElementById("btn").addEventListener('click',show);
-*/
-
-
-var x = document.getElementById("emo-hide");
+console.log(viewAll.children[0])
 
 function show() {
-  if (x.style.display == "none")
-  {
-      x.style.dispaly = "block";
+  if(display[0] == 'none'){
+    display[0] = 'inline-block';
+    updateEmojiDisplay();
   }
-  else  
-  {
-      x.style.display = "none";
+  else if(display[1] == 'none'){
+    display[1] = 'inline-block';
+    updateEmojiDisplay();
+  }
+  else if(display[2] == 'none'){
+    display[2] = 'inline-block';
+    updateEmojiDisplay();
+    viewAll.style.display = 'none';
   }
 }
 
-document.getElementById("btn").addEventListener('click',show);
+viewAll.addEventListener('click',show);

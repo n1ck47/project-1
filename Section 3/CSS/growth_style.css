@@ -137,10 +137,14 @@ h6{
 }
 
 
+.div-block-mobile{
+    display: none;
+}
+
 
 /* Responsive view */
 
-@media screen and (max-width:479px){
+@media screen and (max-width:500px){
 
     /* Main Heading */
     .heading{
@@ -270,3 +274,5 @@ h6{
     }
 
 }
+
+
