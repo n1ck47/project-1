@@ -1,0 +1,15 @@
+.section-5{
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.section-5 img{
+    width:80%;
+    transform: scale(1, 1);
+    max-width: 750px;
+    border-radius: 20px;
+}

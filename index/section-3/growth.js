@@ -1,7 +1,7 @@
 const viewAll = document.getElementById('view-all');
-const show1 = document.getElementsByClassName("show-1")
-const show2 = document.getElementsByClassName("show-2")
-const show3 = document.getElementsByClassName("show-3")
+const show1 = document.getElementsByClassName("sec-3-show-1")
+const show2 = document.getElementsByClassName("sec-3-show-2")
+const show3 = document.getElementsByClassName("sec-3-show-3")
 
 let display = ['none','none','none']
 
