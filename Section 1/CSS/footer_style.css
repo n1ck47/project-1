@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Whitney Light';
+    src: url('./assets/fonts/whitneylight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Medium';
+    src: url('./assets/fonts/whitneymedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url('./assets/fonts/whitneybold.woff') format('woff');
+}
+
+/* Base Settings */
+
+*{
+    
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, button, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html{
+    font: 10px !important;
+}
+
+div{
+    display: block;
+}
+
+:root{
+    --light-clr: #FFFFFF;
+    --dark-clr: #000000;
+    --main-clr: #1ce783;
+    --general-font-size: 2rem;
+    --primary-title-font-size: 4.8rem;
+    --secondary-title-font-size: 4rem;
+    --main-font-family-light: 'Whitney Light', sans-serif;
+    --main-font-family-medium: 'Whitney Medium', sans-serif;
+    --main-font-family-bold: 'Whitney Bold', sans-serif;
+    --num-of-grid-columns: 4;
+    --section-spacing: 5.6rem 2.4rem;
+    --container-width: 126rem;
+
+}
+
+body {
+    font-size: var(--general-font-size);
+    font-family: var(--main-font-family-light);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*--------------------------- Footer Section Starts --------------------------------*/
+
+.footer{
+
+    background-color: var(--dark-clr);
+    color: var(--light-clr);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* horizontal rule */
+.stg-m-0{
+    margin: 0rem;
+}
+.separator{
+    height: 1px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Container */
+
+.container{
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Foot-item */
+
+.foot-item{
+    margin-top: 5.8rem;
+    margin-bottom: 5.8rem;
+}
+
+/* row */
+
+.row{
+    margin: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+/* Column */
+.column{
+    padding: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+.column{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.column{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    
+}
+/* column title */
+
+.col-title{
+    margin-bottom: 2.2rem;
+}
+.title{
+    opacity: 0.6;
+}
+.foot-text{
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.03rem;
+}
+.foot-text{
+    font-size: 1.2rem;
+}
+
+/* Column Title list */
+
+.col-title-list{
+    margin-bottom: 4.3rem;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+    
+}
+
+/* List */
+ul{
+    list-style: none;
+}
+
+/* List Item */
+
+.list-item{
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.9rem;
+}
+
+a {
+    color: var(--light-clr);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.link-img{
+    height: 50px;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Copyright Section */
+
+.col{
+    padding: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+   
+}
+
+/* logoimg division */
+
+.logo-img-cpy{
+
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.d-inline-flex{
+    display: inline-flex !important;
+}
+
+.logo-img{
+    padding-right: 1.6rem;
+}
+
+/* that particular image */
+.img-ft{
+    height: 34px;
+}
+.d-block{
+    display: block !important;
+}
+
+/* that copyright text */
+.align-items-center{
+
+    align-items: center !important;
+}
+.d-flex{
+
+    display: flex !important;
+}
+
+.op-muted{
+    opacity: 0.6 !important;
+}
+.copy-text{
+    font-size: 1.4rem;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+}
+
+/* security part of copyright */
+.mc-mx-4 {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+.mc-opacity--muted {
+    opacity: 0.6 !important;
+}
+.mc-text-small {
+    font-size: 1.4rem;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+
+/* icon security */
+.mc-icon--3 {
+    font-size: .8rem;
+}
+svg {
+    vertical-align: middle;
+}
+
