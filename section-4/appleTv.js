@@ -29,14 +29,19 @@ updateBigCard(index);
 navigateLeft.addEventListener('click',()=>{
     if(index>0){
         index -=1;
-        updateBigCard(index);
-    }  
+    }
+    else if(index==0){
+        index = data.length -1;
+    }
+    updateBigCard(index);
 })
 navigateRight.addEventListener('click',()=>{
     if(index<data.length-1){
         index +=1;
-        updateBigCard(index);
+    }else if(index == data.length -1){
+        index = 0;
     }  
+    updateBigCard(index);
 })
 
 
