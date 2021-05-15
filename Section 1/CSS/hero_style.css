@@ -21,12 +21,12 @@
 }
 
 
-a {
+.sec-1-a-tag{
     text-decoration: none;
     display: inline-block;
 }
 
-img {
+.sec-1-img-tag{
     max-width: 100%;
     display: block;
 }
