@@ -6,7 +6,7 @@ const show3 = document.getElementsByClassName("sec-3-show-3")
 let display = ['none','none','none']
 
 function updateEmojiDisplay(){
-    console.log(show1)
+
 
     show1[0].style.display = display[0]
     show1[1].style.display = display[0]
@@ -26,7 +26,6 @@ function updateEmojiDisplay(){
 
 updateEmojiDisplay();
 
-console.log(viewAll.children[0])
 
 function show() {
   if(display[0] == 'none'){
