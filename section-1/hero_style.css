@@ -234,6 +234,10 @@
         padding: 60px 40px 70px;
     }
 
+    .sec-1-main-nav img{
+        height:50px;
+    }
+
     .sec-1-btn-download{
         font-size: 11px;
         padding: 8px 26px;
