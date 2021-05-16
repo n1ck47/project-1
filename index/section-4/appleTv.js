@@ -16,6 +16,9 @@ function section4_updateBigCard(index){
 
     section4_bigCardHeaderImage.style.backgroundImage = `url('${section4_data[index].logo}')`
     section4_bigCardHeaderText.innerHTML = section4_data[index].name;
+
+    document.getElementById('section-4-genre').innerHTML = section4_data[index].genre;
+    document.getElementById('section-4-desc').innerHTML = section4_data[index].desc;
 }
 
 // Set the default big card image

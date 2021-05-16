@@ -266,3 +266,119 @@
     bottom:20px;
     left:20px;
 }
+
+
+
+
+
+
+.section-4-big-card-extra{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    width: 100%;
+    color: white;
+    bottom:40px;
+}
+
+.section-4-big-card-genre-desc{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.section-4-big-card-genre-desc :nth-child(1){
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-4-big-card-genre-desc :nth-child(2){
+    margin-right: 10px;
+    font-weight: 900;
+    align-self: flex-start;
+}
+
+.section-4-big-card-genre-desc :nth-child(3){
+    font-size: 24px;
+    font-weight: 100;
+   
+}
+
+
+
+.section-4-big-card-extra svg{
+    height:20px;
+    width: 20px;
+}
+
+.section-4-big-card-watch{
+    display: flex;
+    align-items:center;
+    background-color:  #1ce781ad;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.section-4-big-card-watch :nth-child(1){
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:900px){
+    .section-4-big-card-extra{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        bottom: 20px;
+    }
+    .section-4-big-card-watch{
+        margin-top: 10px;
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+    .section-4-big-card-watch svg{
+        height: 15px;
+        width: 15px;
+    }
+    .section-4-big-card-genre-desc :nth-child(1){
+        font-size: 16px;
+    }
+    .section-4-big-card-genre-desc :nth-child(2){
+        display : none;
+    }
+    .section-4-big-card-genre-desc :nth-child(3){
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:499px){
+    .section-4-big-card-genre-desc{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-4-big-card-genre-desc :nth-child(3){
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .section-4-big-card-genre-desc :nth-child(1){
+        font-size: 12px;
+    }
+    .section-4-big-card-genre-desc :nth-child(3){
+        font-size: 12px;
+        text-align: center;
+    }
+    .section-4-big-card-watch{
+        margin-top: 10px;
+        padding: 3px 10px;
+        font-size: 12px;
+    }
+    .section-4-big-card-watch svg{
+        height: 10px;
+        width: 10px;
+    }
+}
