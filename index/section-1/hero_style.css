@@ -36,8 +36,9 @@
 .sec-1-hero{
     background-color: var(--dark-clr);
     color: var(--light-clr);
-    width: 90%;
-    padding: 10% 5%;
+    width: 100%;
+    padding-top:40px;
+    margin-bottom: 300px;
     min-height: 100vh;
     position: relative;
     overflow: hidden;
