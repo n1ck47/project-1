@@ -82,6 +82,14 @@
     cursor: pointer;
 }
 
+.sec-1-btn a{
+    text-decoration: none;
+}
+
+.sec-1-btn a:hover{
+    color: white;
+}
+
 .sec-1-btn-dark{
     color: var(--light-clr);
     font-size: 18px;
@@ -158,6 +166,15 @@
         align-items: flex-start;
     }
     
+    .sec-1-btn a{
+        text-decoration: none;
+    }
+    
+    .sec-1-btn a:hover{
+        color: white;
+    }
+    
+
     .sec-1-title{
         font-size: 65px;
         letter-spacing: -1.65px;
@@ -209,6 +226,15 @@
     .sec-1-hero-content-wrap{
         align-items: flex-start;
     }
+
+    .sec-1-btn a{
+        text-decoration: none;
+    }
+    
+    .sec-1-btn a:hover{
+        color: white;
+    }
+    
 
     .sec-1-title{
         font-size: 55px;
