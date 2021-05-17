@@ -148,6 +148,6 @@ section4_smallCards[1].addEventListener('mouseover',()=>{
     section4_smallCardSpeed2 = 1;
 })
 
-section4_smallCards[0].addEventListener('mouseleave',()=>{
+section4_smallCards[1].addEventListener('mouseleave',()=>{
     section4_smallCardSpeed2 = 3;
 })
