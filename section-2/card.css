@@ -3,6 +3,14 @@ body {
   overflow: auto;
   color: white !important;
 }
+
+.btn-outline-success {
+  color: #1ce783;
+  border-color: #1ce783;
+}
+.btn-outline-success:hover {
+  background-color: #1ce783;
+}
 .section-2-c-text {
   font-size: 32px;
   color: white;
@@ -349,7 +357,7 @@ h2:hover {
   }
   .section-2-unlu-div-3 {
     display: block;
-    border: 1px green solid;
+    border: 1px #1ce783 solid;
     height: 320px;
     width: 220px;
     margin: 50px 0px 10px 20px;
@@ -565,7 +573,7 @@ h2:hover {
   }
   .section-2-unlu-div-3 {
     display: block;
-    border: 1px green solid;
+    border: 1px #1ce783 solid;
     height: 400px;
     width: 260px;
     margin: 50px 30px 10px 20px;
@@ -781,7 +789,7 @@ h2:hover {
   }
   .section-2-unlu-div-3 {
     display: block;
-    border: 1px green solid;
+    border: 1px #1ce783 solid;
     height: 520px;
     width: 340px;
     margin: 50px 60px 10px 20px;
