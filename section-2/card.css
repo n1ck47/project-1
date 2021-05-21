@@ -1,5 +1,5 @@
 body {
-  background-color: black !important;
+  background-color: blue !important;
   overflow: auto;
   color: white !important;
 }
@@ -63,7 +63,7 @@ h2:hover {
     margin: 5px;
     border-radius: 10px;
   }
-  .section-2-container-1 a:hover{
+  .section-2-container-1 a:hover {
     color: white;
   }
   .section-2-unlu-div-1 {
@@ -76,8 +76,8 @@ h2:hover {
 
     background-repeat: no-repeat;
   }
-  .section-2-container-1 a:hover{
-    color:white;
+  .section-2-container-1 a:hover {
+    color: white;
   }
   .section-2-unlu-div-2 {
     border: 1px white solid;
@@ -112,8 +112,8 @@ h2:hover {
   .section-2-c-text-center {
     text-align: center !important;
   }
-  .section-2-container-1 a:hover{
-    color:white;
+  .section-2-container-1 a:hover {
+    color: white;
   }
   .section-2-inside {
     vertical-align: bottom;
@@ -289,8 +289,8 @@ h2:hover {
     text-align: left;
     margin-bottom: 20px;
   }
-  .section-2-container-1 a:hover{
-    color:white;
+  .section-2-container-1 a:hover {
+    color: white;
   }
 
   .list-group-item {
@@ -448,8 +448,8 @@ h2:hover {
     text-align: left;
     margin-bottom: 30px;
   }
-  .section-2-container-1 a:hover{
-    color:white;
+  .section-2-container-1 a:hover {
+    color: white;
   }
   .list-group-item {
     background-color: black !important;
@@ -478,8 +478,8 @@ h2:hover {
     max-height: 700px;
     max-width: 1000px;
   }
-  .section-2-container-1 a:hover{
-    color:white;
+  .section-2-container-1 a:hover {
+    color: white;
   }
   .section-2-c-text-center {
     text-align: center !important;
